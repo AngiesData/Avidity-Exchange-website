@@ -1132,4 +1132,14 @@ avidity-clay-fix.css
   position: relative;
   z-index: 1;
 }
-
+/* Fix text inside the white button on the purple banner */
+.banner .btn-secondary,
+.banner .btn-secondary:visited,
+.banner .btn-secondary:hover,
+.banner .btn-secondary:focus {
+  color: #20182d !important;
+  font-weight: 900 !important;
+  font-size: 1rem !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
