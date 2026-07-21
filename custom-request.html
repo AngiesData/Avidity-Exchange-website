@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Custom Request | Avidity Exchange</title>
+  <meta name="description" content="Share an idea for a future product, service, resource, or custom project.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Avidity Exchange home">
+      <span class="brand-mark">AE</span>
+      <span><strong>Avidity Exchange</strong><small>Learn • Build • Create • Exchange</small></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+<a href="digital-hub.html">Digital Hub</a>
+<a href="marketplace.html">Marketplace</a>
+<a href="services.html">Services</a>
+<a href="resources.html">Resources</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <p class="eyebrow">The Exchange</p>
+      <h1>Custom Request</h1>
+      <p>Share an idea for a future product, service, resource, or custom project.</p>
+    </section>
+    
+<section class="section">
+  <div class="form-wrap card">
+    <form name="custom-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+      <input type="hidden" name="form-name" value="custom-request">
+      <p hidden><label>Do not fill this out: <input name="bot-field"></label></p>
+      <div><label for="request-name">Name</label><input id="request-name" name="name" required></div>
+      <div><label for="request-email">Email</label><input id="request-email" name="email" type="email" required></div>
+      <div><label for="request-type">Request type</label>
+        <select id="request-type" name="request-type">
+          <option>Digital product</option><option>Remote service</option><option>Custom project</option><option>Training</option><option>Physical product suggestion</option><option>Other</option>
+        </select>
+      </div>
+      <div><label for="details">Tell us what you need</label><textarea id="details" name="details" required></textarea></div>
+      <div><label for="budget">Estimated budget, if applicable</label><input id="budget" name="budget"></div>
+      <div><label for="deadline">Desired deadline, if applicable</label><input id="deadline" name="deadline" type="date"></div>
+      <label class="checkbox"><input type="checkbox" required> <span>I understand this is a request only and does not create a contract, reservation, or guarantee of service.</span></label>
+      <button class="btn btn-primary" type="submit">Submit request</button>
+    </form>
+  </div>
+</section>
+
+  </main>
+
+  
+<footer class="site-footer">
+  <div>
+    <strong>Avidity Exchange</strong>
+    <p>Learn • Build • Create • Exchange</p>
+  </div>
+  <div class="footer-links"><a href="legal/privacy.html">Privacy</a> · <a href="legal/terms.html">Terms</a> · <a href="legal/refund-policy.html">Refunds</a> · <a href="legal/disclaimer.html">Disclaimer</a> · <a href="legal/accessibility.html">Accessibility</a></div>
+  <p class="copyright">© <span id="year"></span> Avidity Exchange. All rights reserved.</p>
+</footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
