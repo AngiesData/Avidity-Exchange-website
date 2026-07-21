@@ -838,6 +838,12 @@ textarea {
     padding-top: 3.25rem;
   }
 
+  .banner .btn-secondary{
+    color:#20182d !important;
+    font-weight:900 !important;
+    font-size:1rem !important;
+    text-shadow:none !important;
+}
 
   ChatGPT Plus
 
