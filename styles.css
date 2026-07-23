@@ -269,8 +269,10 @@ a { color: inherit; }
 /* PAGE LAYOUT */
 
 main {
-  width: min(calc(100% - 2rem), var(--max));
-  margin: 0 auto;
+   width:min(calc(100% - 2rem), var(--max));
+   margin:0 auto;
+   padding-left:25px;
+   padding-right:25px;
 }
 
 .hero {
