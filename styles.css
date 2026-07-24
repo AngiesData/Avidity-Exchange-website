@@ -271,10 +271,9 @@ a { color: inherit; }
 main {
    width:min(calc(100% - 2rem), var(--max));
    margin:0 auto;
-   padding-left:25px;
-   padding-right:25px;
+   padding-left:40px;
+   padding-right:40px;
 }
-
 .hero {
   min-height: 72vh;
   display: grid;
